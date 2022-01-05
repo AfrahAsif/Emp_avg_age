@@ -12,4 +12,4 @@ Employee('name1','name2',20),
 Employee('name1','name2',23)]
 
 ages = [Emp.age for Emp in employees]
-print('Average Age Is: {}'.format(sum(ages)/len(ages)))
+print('Average age of the employees : {}'.format(sum(ages)/len(ages)))
