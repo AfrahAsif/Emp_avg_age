@@ -1,8 +1,8 @@
 class Employee:
   def __init__(self,fname,lname,age):
-    self.fname= fname
-    self.lname=lname
-    self.age=age
+    self.fname = fname
+    self.lname = lname
+    self.age = age
 
 
 employees = [Employee('name1','name2',22),
